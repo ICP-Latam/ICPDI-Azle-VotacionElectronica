@@ -1,0 +1,5 @@
+service: () -> {
+    createVote: (text, text, text, int) -> (record {lastname1:text; lastname2:text; voting:int; names:text; voteCreator:principal});
+    getVote: (principal) -> (variant {Ok:record {lastname1:text; lastname2:text; voting:int; names:text; voteCreator:principal}; Err:variant {VoteInvalidValue:principal}}) query;
+    updateVote: (text, text, text, int) -> (record {lastname1:text; lastname2:text; voting:int; names:text; voteCreator:principal});
+}

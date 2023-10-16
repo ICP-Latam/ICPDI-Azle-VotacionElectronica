@@ -1,0 +1,14 @@
+{
+  "name": "votingElections",
+  "version": "1.0.0",
+  "description": "Voting Elections Canister",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lalo Acuña",
+  "license": "ISC",
+  "dependencies": {
+    "azle": "^0.18.4"
+  }
+}
